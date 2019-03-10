@@ -22,7 +22,7 @@ def color_change(elev):
 #Cria o mapa base
 map = folium.Map(location=[37.296933,-121.9574983], zoom_start = 5, tiles = "CartoDB dark_matter")
 
-#Cria o cluste
+#Cria o cluster
 marker_cluster = MarkerCluster().add_to(map)
 
 #Plota os marcadores e add em 'marker_cluster'
